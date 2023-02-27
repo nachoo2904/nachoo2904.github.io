@@ -1,0 +1,126 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 750px) {
+    .izquierda{
+        float: left;
+        position: absolute;
+    }
+        .derecha{
+            float: right;
+            padding-left: 320px;
+           }
+}
+
+body{
+    background: center;
+    background-image: url('./images/fondo.jpg');
+}
+
+.derecha{
+    margin: 0 auto;
+    border: 0;
+    padding: auto;
+    width: auto;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda{
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    width: 300px;
+    margin-top: 9px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombreYFoto img{
+    position: relative;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nombreYFoto{
+    margin-top: 10px;
+    border: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(3, 88, 158);
+    box-shadow: 0 35px 55px rgba(39, 38, 38, 0.616);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cajas{
+    border: 5px;
+    border-radius: 10px;
+    border-color:  rgb(3, 88, 158);
+    border-style: solid;
+    box-shadow: 0 35px 55px rgba(39, 38, 38, 0.616);
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline 3px rgb(3, 88, 158);
+}
+
+h2{
+    color: white;
+    border-style: solid;
+    border: 5px solid rgb(11, 116, 202);
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulo{
+    border-style: none;
+    margin-left: 9px;
+}
+
+h3{
+    color: white;
+    text-decoration: underline 3px rgb(3, 88, 158);
+}
+
+li{
+    color: white;
+    font-size: 16px;
+}
+
+span{
+    color: white;
+}
+
+.cajas ul li .icono{
+    color: rgb(0, 146, 214);
+    display: inline-block;
+    width: 15px;
+    font-size: 18px;
+}
+
+.cajas ul li a{
+    color: white;
+}
+
+.cajas button{
+    margin-left: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 4px solid rgb(3, 88, 158);
+    margin-bottom: 5px;
+}
